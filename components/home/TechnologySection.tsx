@@ -13,7 +13,7 @@ export default function TechnologySection() {
                             <h2 className="text-white text-3xl font-semibold mb-6">
                                 Unique AIR°gel® Technology
                             </h2>
-                            <p className="text-white/80 text-sm leading-relaxed mb-8 max-w-md">
+                            <p className="text-white/80 text-md leading-relaxed mb-8 max-w-md">
                                 Sleepnet's AIR°gel® is a leading edge innovation developed and designed to enhance the comfort and effectiveness of our respiratory masks. This advanced cushion technology features medical grade silicone gel that conforms to the contours of each individual face creating a secure and comfortable seal that ensures a snug fit while minimizing air leakage around the edges.
                             </p>
                             <Link
@@ -36,7 +36,7 @@ export default function TechnologySection() {
                             <h2 className="text-white text-3xl font-semibold mb-6">
                                 Custom Fit Technology
                             </h2>
-                            <p className="text-white/80 text-sm leading-relaxed mb-8 max-w-md">
+                            <p className="text-white/80 text-md leading-relaxed mb-8 max-w-md">
                                 Sleepnet's Custom Fit Technology is our proprietary technology, made from a flexible, pliable material that responds to gentle manipulation and accommodates changes in weight and facial asymmetry. Custom Fit Technology allows the user to easily shape the mask by gently bending and molding it along the sides, top, or bottom to provide a compliant and secure fit.
                             </p>
                             <Link

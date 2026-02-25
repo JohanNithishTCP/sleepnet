@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 
 export default function HeroSection() {
     const bannerVideos = [
-        "https://cdn.clinicalvisuals.com/medical/emos/landingpage/emos_01.webm",
-        "https://cdn.clinicalvisuals.com/medical/emos/landingpage/emos_02.webm",
+        "https://cdn.clinicalvisuals.com/medical/sleepnet/landingpage/sleepnet_01.webm",
+        "https://cdn.clinicalvisuals.com/medical/sleepnet/landingpage/sleepnet_02.webm",
     ];
 
     const [currentVideoIndex, setCurrentVideoIndex] = useState(0);

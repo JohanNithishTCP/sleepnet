@@ -17,7 +17,7 @@ export default function AudienceSection() {
                             <span className="text-5xl font-bold opacity-20">01</span>
                         </div>
                         <h3 className="text-white text-xl font-semibold mb-4 relative z-10">I'm a Distributor</h3>
-                        <p className="text-white/60 text-sm leading-relaxed mb-6 relative z-10">
+                        <p className="text-white/60 text-md leading-relaxed mb-6 relative z-10">
                             Access these resources to learn more about our products and to become a Sleepnet distribution partner.
                         </p>
                     </div>
@@ -29,7 +29,7 @@ export default function AudienceSection() {
                             <span className="text-5xl font-bold opacity-20">02</span>
                         </div>
                         <h3 className="text-white text-xl font-semibold mb-4 relative z-10">I'm a Provider</h3>
-                        <p className="text-white/60 text-sm leading-relaxed mb-6 relative z-10">
+                        <p className="text-white/60 text-md leading-relaxed mb-6 relative z-10">
                             Access resources to help healthcare professionals do what they do best - care for their patients.
                         </p>
                     </div>
@@ -41,7 +41,7 @@ export default function AudienceSection() {
                             <span className="text-5xl font-bold opacity-20">03</span>
                         </div>
                         <h3 className="text-white text-xl font-semibold mb-4 relative z-10">I'm a Patient</h3>
-                        <p className="text-white/60 text-sm leading-relaxed mb-6 relative z-10">
+                        <p className="text-white/60 text-md leading-relaxed mb-6 relative z-10">
                             Access articles, videos, and quick start guides to learn more about our products and get the most out of your therapy.
                         </p>
                     </div>
@@ -53,7 +53,7 @@ export default function AudienceSection() {
                             <span className="text-5xl font-bold opacity-20">04</span>
                         </div>
                         <h3 className="text-white text-xl font-semibold mb-4 relative z-10">Where to Buy Our Products</h3>
-                        <p className="text-white/60 text-sm leading-relaxed mb-6 relative z-10">
+                        <p className="text-white/60 text-md leading-relaxed mb-6 relative z-10">
                             Sleepnet products are distributed worldwide through online and local partners.
                         </p>
                     </div>
@@ -65,7 +65,7 @@ export default function AudienceSection() {
                             <span className="text-5xl font-bold opacity-20">05</span>
                         </div>
                         <h3 className="text-white text-xl font-semibold mb-4 relative z-10">Become a Partner</h3>
-                        <p className="text-white/60 text-sm leading-relaxed mb-6 relative z-10">
+                        <p className="text-white/60 text-md leading-relaxed mb-6 relative z-10">
                             Considering a Partnership with Sleepnet?
                         </p>
                     </div>
