@@ -67,6 +67,7 @@ const categories = [
         description: "Specially designed for our smallest patients with gentle materials.",
         products: [
             { title: "MiniMe® Nasal Pediatric Mask", desc: "Big comfort for small patients", imgId: 20 },
+            { title: "MiniMe®2 Nasal Pediatric Mask", desc: "For the little faces that matter most.", imgId: 19 },
         ]
     },
     {
