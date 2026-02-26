@@ -140,7 +140,7 @@ export default function ProductsSection() {
     };
 
     return (
-        <section className="py-24 bg-[#F5F5F5]">
+        <section className="py-24 bg-surface">
             <div className="container mx-auto px-6">
 
                 {/* Header */}
@@ -148,25 +148,25 @@ export default function ProductsSection() {
                     className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-12"
                     data-aos="fade-up"
                 >
-                    <h2 className="text-3xl md:text-4xl font-semibold text-brand-blue max-w-xl leading-tight">
+                    <h2 className="text-3xl md:text-4xl font-semibold text-primary max-w-xl leading-tight">
                         Masks for Every Need:<br /> Comfort, Protection, and Quality.
                     </h2>
                     <Link
                         href="/products"
-                        className="bg-brand-cyan hover:bg-brand-hover text-white text-sm font-semibold px-8 py-3 rounded transition-colors inline-block text-center"
+                        className="bg-secondary hover:bg-secondary-hover text-white text-sm font-semibold px-8 py-3 rounded transition-colors inline-block text-center"
                     >
                         View All Products
                     </Link>
                 </div>
 
                 {/* Main Tabs (Layer 1) */}
-                <div className='bg-brand-blue mb-8' data-aos="fade-up" data-aos-delay="100">
-                    <div className="flex flex-wrap justify-between p-2 bg-brand-blue text-white text-sm font-medium">
+                <div className='bg-primary mb-8' data-aos="fade-up" data-aos-delay="100">
+                    <div className="flex flex-wrap justify-between p-2 bg-primary text-white text-sm font-medium">
                         {categories.map((cat, idx) => (
                             <button
                                 key={cat.id}
                                 onClick={() => handleCatChange(idx)}
-                                className={`px-6 py-4 grow text-center transition-colors ${activeCatIndex === idx ? 'bg-brand-cyan' : 'hover:bg-brand-blue-card border-l border-white/10 first:border-l-0'
+                                className={`px-6 py-4 grow text-center transition-colors ${activeCatIndex === idx ? 'bg-secondary' : 'hover:bg-primary-card border-l border-white/10 first:border-l-0'
                                     }`}
                             >
                                 {cat.name}
@@ -192,8 +192,8 @@ export default function ProductsSection() {
                                     key={sub.id}
                                     onClick={() => setActiveSubIndex(idx)}
                                     className={`px-6 py-2 text-sm font-medium transition-colors ${activeSubIndex === idx
-                                        ? 'bg-brand-cyan text-white'
-                                        : 'text-gray-500 hover:text-brand-blue'
+                                        ? 'bg-secondary text-white'
+                                        : 'text-gray-500 hover:text-primary'
                                         }`}
                                 >
                                     {sub.name}
@@ -229,7 +229,7 @@ export default function ProductsSection() {
                             </div>
 
                             <div className="p-6">
-                                <h3 className="text-brand-blue font-bold text-lg mb-2 group-hover:text-brand-cyan transition-colors">
+                                <h3 className="text-primary font-bold text-lg mb-2 group-hover:text-secondary transition-colors">
                                     {product.title}
                                 </h3>
                                 <p className="text-gray-500 text-sm leading-relaxed">

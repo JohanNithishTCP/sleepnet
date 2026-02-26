@@ -9,7 +9,7 @@ export default function TechnologySection() {
                     {/* Row 1 */}
                     <div className="flex flex-col md:flex-row w-full mb-0.5" data-aos="fade-up">
                         {/* Text Block */}
-                        <div className="w-full md:w-1/2 bg-brand-blue p-12 md:p-20 flex flex-col justify-center items-start" data-aos="fade-right">
+                        <div className="w-full md:w-1/2 bg-primary p-12 md:p-20 flex flex-col justify-center items-start" data-aos="fade-right">
                             <h2 className="text-white text-3xl font-semibold mb-6">
                                 Unique AIR°gel® Technology
                             </h2>
@@ -18,7 +18,7 @@ export default function TechnologySection() {
                             </p>
                             <Link
                                 href="/technology"
-                                className="bg-brand-cyan hover:bg-brand-hover text-white text-sm font-semibold px-8 py-3 rounded transition-colors"
+                                className="bg-secondary hover:bg-secondary-hover text-white text-sm font-semibold px-8 py-3 rounded transition-colors"
                             >
                                 Learn More
                             </Link>
@@ -32,7 +32,7 @@ export default function TechnologySection() {
                     {/* Row 2 */}
                     <div className="flex flex-col md:flex-row-reverse w-full" data-aos="fade-up">
                         {/* Text Block */}
-                        <div className="w-full md:w-1/2 bg-brand-blue p-12 md:p-20 flex flex-col justify-center items-start" data-aos="fade-left">
+                        <div className="w-full md:w-1/2 bg-primary p-12 md:p-20 flex flex-col justify-center items-start" data-aos="fade-left">
                             <h2 className="text-white text-3xl font-semibold mb-6">
                                 Custom Fit Technology
                             </h2>
@@ -41,7 +41,7 @@ export default function TechnologySection() {
                             </p>
                             <Link
                                 href="/technology"
-                                className="bg-brand-cyan hover:bg-brand-hover text-white text-sm font-semibold px-8 py-3 rounded transition-colors"
+                                className="bg-secondary hover:bg-secondary-hover text-white text-sm font-semibold px-8 py-3 rounded transition-colors"
                             >
                                 Learn More
                             </Link>

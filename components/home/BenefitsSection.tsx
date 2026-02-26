@@ -6,7 +6,7 @@ export default function BenefitsSection() {
             <div className="container mx-auto px-6">
 
                 <h2
-                    className="text-center text-3xl md:text-3xl font-semibold text-brand-blue mb-12"
+                    className="text-center text-3xl md:text-3xl font-semibold text-primary mb-12"
                     data-aos="fade-up"
                 >
                     Why you should choose Sleepnet?
@@ -24,7 +24,7 @@ export default function BenefitsSection() {
                             <div className="w-20 h-20 relative mb-4">
                                 <Image src="/home/why-1.png" alt="Made in USA" fill className="object-contain" />
                             </div>
-                            <h3 className="text-brand-blue font-bold text-base">Made in USA</h3>
+                            <h3 className="text-primary font-bold text-base">Made in USA</h3>
                         </div>
 
                         {/* Card 2 */}
@@ -36,7 +36,7 @@ export default function BenefitsSection() {
                             <div className="w-20 h-20 relative mb-4">
                                 <Image src="/home/why-2.png" alt="Quality" fill className="object-contain" />
                             </div>
-                            <h3 className="text-brand-blue font-bold text-base">Quality</h3>
+                            <h3 className="text-primary font-bold text-base">Quality</h3>
                         </div>
 
                         {/* Card 3 */}
@@ -48,7 +48,7 @@ export default function BenefitsSection() {
                             <div className="w-20 h-20 relative mb-4">
                                 <Image src="/home/why-3.png" alt="Dependable" fill className="object-contain" />
                             </div>
-                            <h3 className="text-brand-blue font-bold text-base">Dependable</h3>
+                            <h3 className="text-primary font-bold text-base">Dependable</h3>
                         </div>
 
                         {/* Card 4 */}
@@ -60,7 +60,7 @@ export default function BenefitsSection() {
                             <div className="w-20 h-20 relative mb-4">
                                 <Image src="/home/why-4.png" alt="Quick Ship" fill className="object-contain" />
                             </div>
-                            <h3 className="text-brand-blue font-bold text-base">Quick Ship</h3>
+                            <h3 className="text-primary font-bold text-base">Quick Ship</h3>
                         </div>
 
                     </div>

@@ -2,10 +2,13 @@
 
 @theme {
   --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  --color-brand-blue: #1C355E;
-  --color-brand-blue-card: #203B68;
-  --color-brand-cyan: #00C2FF;
-  --color-brand-hover: #00A6DA;
+  --font-oswald: var(--font-oswald);
+  --color-primary: #203864;
+  --color-primary-card: #254275;
+  --color-primary-muted: #2D456E;
+  --color-secondary: #00CBFF;
+  --color-secondary-hover: #00B5E6;
+  --color-surface: #F5F5F5;
   --color-background: #ffffff;
   --color-foreground: #333333;
 }

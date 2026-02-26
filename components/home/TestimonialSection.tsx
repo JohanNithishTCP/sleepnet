@@ -23,7 +23,7 @@ const testimonials = [
     {
         name: "Dr. Viral K. MD",
         role: "Medical Director",
-        content: "Our collaboration with Sleepnet has been incredibly beneficial for our young patients and their families. The quality of Sleepnet's masks, especially in the pediatric range, is outstanding. Their masks are not only effective but also designed with the comfort and needs of children in mind. We're particularly grateful for their prioritization of pediatric orders, ensuring that our most vulnerable patients receive the care they need promptly."
+        content: "Our collaboration with Sleepnet has been incredibly beneficial for our young patients and their families. The quality of Sleepnet’s masks, especially in the pediatric range, is outstanding. Their masks are not only effective but also designed with the comfort and needs of children in mind. We’re particularly grateful for their prioritization of pediatric orders, ensuring that our most vulnerable patients receive the care they need promptly. The level of service from Sleepnet is exceptional. They are responsive, understanding, and always willing to go the extra mile to assist us. Working with Sleepnet, it’s clear that they genuinely care about making a positive impact on children’s health."
     },
     {
         name: "Claudia M., RRT, RST, RPSGT, CCSH",
@@ -38,14 +38,14 @@ export default function TestimonialSection() {
     return (
         <section className="relative w-full py-32 lg:py-28 flex items-center">
             {/* Background Blue Bar - Perfectly centered, image pops out of it */}
-            <div className="absolute  left-0 w-full h-[450px] lg:h-[650px] bg-brand-blue z-0" />
+            <div className="absolute  left-0 w-full h-[450px] lg:h-[650px] bg-primary z-0" />
 
             <div className="container mx-auto px-6 relative z-10">
                 <div className="flex flex-col lg:flex-row items-center gap-0 lg:gap-16">
 
                     {/* Left Image - Portrait aspect ratio popping out top & bottom */}
                     <div className="w-full lg:w-[50%] relative z-10 flex justify-start" data-aos="fade-right">
-                        <div className="w-full aspect-[9/10] shadow-2xl overflow-hidden rounded-sm transform -translate-y-[100px]">
+                        <div className="w-full aspect-9/10 shadow-2xl overflow-hidden rounded-sm transform -translate-y-[100px]">
                             <img
                                 src="/home/testi-img.png"
                                 alt="Doctor and patient"
@@ -64,13 +64,13 @@ export default function TestimonialSection() {
                             </h2>
                             <div className="flex gap-3 pt-2">
                                 <button
-                                    className="w-10 h-10 rounded-full bg-brand-cyan hover:bg-brand-hover text-white flex items-center justify-center transition-all shadow-md active:scale-90"
+                                    className="w-10 h-10 rounded-full bg-secondary hover:bg-secondary-hover text-white flex items-center justify-center transition-all shadow-md active:scale-90"
                                     onClick={() => swiperRef.current?.slidePrev()}
                                 >
                                     <ArrowLeft size={18} strokeWidth={3} />
                                 </button>
                                 <button
-                                    className="w-10 h-10 rounded-full bg-brand-cyan hover:bg-brand-hover text-white flex items-center justify-center transition-all shadow-md active:scale-90"
+                                    className="w-10 h-10 rounded-full bg-secondary hover:bg-secondary-hover text-white flex items-center justify-center transition-all shadow-md active:scale-90"
                                     onClick={() => swiperRef.current?.slideNext()}
                                 >
                                     <ArrowRight size={18} strokeWidth={3} />
