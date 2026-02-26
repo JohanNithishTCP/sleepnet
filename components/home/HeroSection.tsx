@@ -27,8 +27,7 @@ export default function HeroSection() {
                     onEnded={handleVideoEnd}
                     className="w-full h-full object-cover opacity-70"
                 ></video>
-                {/* Darken overlay for contrast */}
-                <div className="absolute inset-0 bg-linear-to-b from-black/10 via-black/20 to-black/80 z-1"></div>
+
             </div>
 
             {/* Centered Content Overlay (Responsive) positioned at bottom */}
