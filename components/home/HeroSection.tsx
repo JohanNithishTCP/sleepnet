@@ -25,7 +25,7 @@ export default function HeroSection() {
                     muted
                     playsInline
                     onEnded={handleVideoEnd}
-                    className="w-full h-full object-cover opacity-70"
+                    className="w-full h-full object-cover"
                 ></video>
 
             </div>
