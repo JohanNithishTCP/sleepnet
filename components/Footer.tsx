@@ -37,7 +37,7 @@ export default function Footer() {
 
             {/* Main Footer Content */}
             <div className="container mx-auto px-6 pb-8 pt-4">
-                <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-8 mb-16">
+                <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-8 mb-8">
 
                     {/* Brand Info */}
                     <div className="lg:w-1/4 flex flex-col gap-6">

@@ -1,14 +1,31 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Search, ShoppingCart, ChevronDown, Menu, X } from "lucide-react";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY > 100) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     return (
-        <header className="w-full bg-white shadow-sm sticky top-0 z-50">
+        <header
+            className={`w-full bg-white shadow-sm fixed top-0 z-50 transition-all duration-500 transform ${isVisible ? "translate-y-0 opacity-100" : "-translate-y-full opacity-0"
+                }`}
+        >
             <div className="container mx-auto px-6 h-20 flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center gap-2">

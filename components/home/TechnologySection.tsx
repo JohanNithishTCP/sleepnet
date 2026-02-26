@@ -7,9 +7,9 @@ export default function TechnologySection() {
                 <div className="flex flex-col">
 
                     {/* Row 1 */}
-                    <div className="flex flex-col md:flex-row w-full mb-0.5">
+                    <div className="flex flex-col md:flex-row w-full mb-0.5" data-aos="fade-up">
                         {/* Text Block */}
-                        <div className="w-full md:w-1/2 bg-brand-blue p-12 md:p-20 flex flex-col justify-center items-start">
+                        <div className="w-full md:w-1/2 bg-brand-blue p-12 md:p-20 flex flex-col justify-center items-start" data-aos="fade-right">
                             <h2 className="text-white text-3xl font-semibold mb-6">
                                 Unique AIR°gel® Technology
                             </h2>
@@ -24,15 +24,15 @@ export default function TechnologySection() {
                             </Link>
                         </div>
                         {/* Image Block */}
-                        <div className="w-full md:w-1/2 bg-[#F8F9FA] h-96 md:h-auto min-h-[400px] flex items-center justify-center relative border border-gray-100/50">
+                        <div className="w-full md:w-1/2 bg-[#F8F9FA] h-96 md:h-auto min-h-[400px] flex items-center justify-center relative border border-gray-100/50" data-aos="fade-left">
                             <img src="/home/unique-air.png" alt="" />
                         </div>
                     </div>
 
                     {/* Row 2 */}
-                    <div className="flex flex-col md:flex-row-reverse w-full">
+                    <div className="flex flex-col md:flex-row-reverse w-full" data-aos="fade-up">
                         {/* Text Block */}
-                        <div className="w-full md:w-1/2 bg-brand-blue p-12 md:p-20 flex flex-col justify-center items-start">
+                        <div className="w-full md:w-1/2 bg-brand-blue p-12 md:p-20 flex flex-col justify-center items-start" data-aos="fade-left">
                             <h2 className="text-white text-3xl font-semibold mb-6">
                                 Custom Fit Technology
                             </h2>
@@ -47,7 +47,7 @@ export default function TechnologySection() {
                             </Link>
                         </div>
                         {/* Image Block */}
-                        <div className="w-full md:w-1/2 bg-[#F8F9FA] h-96 md:h-auto min-h-[400px] flex items-center justify-center relative border border-gray-100/50">
+                        <div className="w-full md:w-1/2 bg-[#F8F9FA] h-96 md:h-auto min-h-[400px] flex items-center justify-center relative border border-gray-100/50" data-aos="fade-right">
                             <img src="/home/custom-fit.png" alt="" />
                         </div>
                     </div>

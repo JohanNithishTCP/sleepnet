@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import AOSInit from "@/components/AOSInit";
 
 export const metadata: Metadata = {
   title: "Sleepnet",
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased min-h-screen flex flex-col font-sans">
+        <AOSInit />
         <Header />
         <div className="flex-1">
           {children}

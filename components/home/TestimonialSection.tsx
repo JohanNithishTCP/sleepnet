@@ -44,8 +44,8 @@ export default function TestimonialSection() {
                 <div className="flex flex-col lg:flex-row items-center gap-0 lg:gap-16">
 
                     {/* Left Image - Portrait aspect ratio popping out top & bottom */}
-                    <div className="w-full lg:w-[50%] relative z-10 flex justify-start">
-                        <div className="w-full h-[480px] lg:h-[600px] shadow-2xl overflow-hidden rounded-sm transform -translate-y-[100px]">
+                    <div className="w-full lg:w-[50%] relative z-10 flex justify-start" data-aos="fade-right">
+                        <div className="w-full aspect-[9/10] shadow-2xl overflow-hidden rounded-sm transform -translate-y-[100px]">
                             <img
                                 src="/home/testi-img.png"
                                 alt="Doctor and patient"
@@ -55,7 +55,7 @@ export default function TestimonialSection() {
                     </div>
 
                     {/* Right Content */}
-                    <div className="w-full lg:w-[50%] flex flex-col pt-16 lg:pt-0">
+                    <div className="w-full lg:w-[50%] flex flex-col pt-16 lg:pt-0" data-aos="fade-left">
 
                         {/* Header & Controls */}
                         <div className="flex flex-row items-start justify-between gap-6 mb-10">
@@ -79,7 +79,7 @@ export default function TestimonialSection() {
                         </div>
 
                         {/* Testimonial Swiper */}
-                        <div className="w-full">
+                        <div className="w-full" data-aos="zoom-in" data-aos-delay="200">
                             <Swiper
                                 modules={[Navigation]}
                                 onSwiper={(swiper) => {

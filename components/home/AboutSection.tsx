@@ -9,7 +9,7 @@ export default function AboutSection() {
                 <div className="flex flex-col lg:flex-row gap-10 md:gap-12 items-start">
 
                     {/* Left Column */}
-                    <div className="w-full lg:w-3/5 flex flex-col gap-8 md:gap-10">
+                    <div className="w-full lg:w-3/5 flex flex-col gap-8 md:gap-10" data-aos="fade-right">
                         <div>
                             <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-medium text-brand-blue mb-4 sm:mb-6 max-w-xl leading-snug sm:leading-tight">
                                 At Sleepnet Corporation, we create innovative respiratory solutions.
@@ -21,7 +21,7 @@ export default function AboutSection() {
 
                         {/* the two small cards */}
                         <div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-6 md:gap-8">
-                            <div className="flex flex-1 gap-4 items-start xl:items-start group cursor-pointer hover:-translate-y-1 transition-transform">
+                            <div className="flex flex-1 gap-4 items-start xl:items-start group cursor-pointer hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="100">
                                 <div className="w-16 h-16 sm:w-20 sm:h-20 shrink-0 bg-[#F5F5F5] border-l-2 border-brand-cyan flex items-center justify-center text-brand-blue transition-colors group-hover:bg-brand-blue group-hover:text-white">
                                     <Globe strokeWidth={1.5} className="w-6 h-6 sm:w-8 sm:h-8 opacity-40 group-hover:opacity-100 transition-opacity" />
                                 </div>
@@ -32,7 +32,7 @@ export default function AboutSection() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex flex-1 gap-4 items-start xl:items-start group cursor-pointer hover:-translate-y-1 transition-transform">
+                            <div className="flex flex-1 gap-4 items-start xl:items-start group cursor-pointer hover:-translate-y-1 transition-transform" data-aos="fade-up" data-aos-delay="200">
                                 <div className="w-16 h-16 sm:w-20 sm:h-20 shrink-0 bg-[#F5F5F5] border-l-2 border-brand-cyan flex items-center justify-center text-brand-blue transition-colors group-hover:bg-brand-blue group-hover:text-white">
                                     <Briefcase strokeWidth={1.5} className="w-6 h-6 sm:w-8 sm:h-8 opacity-40 group-hover:opacity-100 transition-opacity" />
                                 </div>
@@ -46,20 +46,20 @@ export default function AboutSection() {
                         </div>
 
                         {/* Image: Two people */}
-                        <div className="w-full">
+                        <div className="w-full" data-aos="zoom-in" data-aos-delay="300">
                             <img src="/home/about-1.png" alt="" />
                         </div>
                     </div>
 
                     {/* Right Column */}
-                    <div className="w-full lg:w-2/5 flex flex-col gap-6 md:gap-8 mt-4 lg:mt-0">
+                    <div className="w-full lg:w-2/5 flex flex-col gap-6 md:gap-8 mt-4 lg:mt-0" data-aos="fade-left">
                         {/* Image: Masks */}
                         <div className="w-full">
                             <img src="/home/about-2.png" alt="" />
                         </div>
 
                         {/* 35+ Years of Experience */}
-                        <div className="flex items-center gap-3 sm:gap-4 mt-2 px-2 sm:px-4">
+                        <div className="flex items-center gap-3 sm:gap-4 mt-2 px-2 sm:px-4" data-aos="zoom-in" data-aos-delay="200">
                             <span className="text-brand-cyan text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter">35+</span>
                             <span className="text-brand-blue text-sm sm:text-lg lg:text-xl font-bold leading-tight">
                                 Years of<br />Experience
